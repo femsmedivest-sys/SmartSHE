@@ -33,7 +33,7 @@ const AD_DIRECTORY = [
 /* ==========================================================================
    1. PERSISTENCE LAYER
    ========================================================================== */
-const DB_KEY = "smartshe_db_v1";
+const DB_KEY = "smartshe_db_v2";
 const SESSION_KEY = "smartshe_session_v1";
 
 const DB = {
