@@ -20,14 +20,14 @@
    In production this list is replaced entirely by an AD/OIDC call.
    ========================================================================== */
 const AD_DIRECTORY = [
-  { email: "ahmad.taufek@medivest.com",  name: "Ahmad Taufek Abas Seram", department: "C-QSR",       position: "System Admin",      role: "admin"   },
-  { email: "siti.rahman@medivest.com",   name: "Siti Rahman",             department: "SHE",          position: "Senior Trainer",    role: "trainer" },
-  { email: "daniel.wong@medivest.com",   name: "Daniel Wong",             department: "Engineering",  position: "Safety Trainer",    role: "trainer" },
-  { email: "nur.aisyah@medivest.com",    name: "Nur Aisyah Kamal",        department: "Production",   position: "Line Operator",     role: "staff"   },
-  { email: "farid.hassan@medivest.com",  name: "Farid Hassan",            department: "Warehouse",    position: "Store Keeper",      role: "staff"   },
-  { email: "lim.wei.jie@medivest.com",   name: "Lim Wei Jie",             department: "Maintenance",  position: "Technician",        role: "staff"   },
-  { email: "priya.kumar@medivest.com",   name: "Priya Kumar",             department: "QA",           position: "QA Inspector",      role: "staff"   },
-  { email: "hafiz.rosli@medivest.com",   name: "Hafiz Rosli",             department: "Production",   position: "Shift Supervisor",  role: "staff"   },
+  { email: "ahmad.taufek@medivest.com.my",  name: "Ahmad Taufek Abas Seram", department: "C-QSR",       position: "System Admin",      role: "admin"   },
+  { email: "siti.rahman@medivest.com.my",   name: "Siti Rahman",             department: "SHE",          position: "Senior Trainer",    role: "trainer" },
+  { email: "daniel.wong@medivest.com.my",   name: "Daniel Wong",             department: "Engineering",  position: "Safety Trainer",    role: "trainer" },
+  { email: "nur.aisyah@medivest.com.my",    name: "Nur Aisyah Kamal",        department: "Production",   position: "Line Operator",     role: "staff"   },
+  { email: "farid.hassan@medivest.com.my",  name: "Farid Hassan",            department: "Warehouse",    position: "Store Keeper",      role: "staff"   },
+  { email: "lim.wei.jie@medivest.com.my",   name: "Lim Wei Jie",             department: "Maintenance",  position: "Technician",        role: "staff"   },
+  { email: "priya.kumar@medivest.com.my",   name: "Priya Kumar",             department: "QA",           position: "QA Inspector",      role: "staff"   },
+  { email: "hafiz.rosli@medivest.com.my",   name: "Hafiz Rosli",             department: "Production",   position: "Shift Supervisor",  role: "staff"   },
 ];
 
 /* ==========================================================================
