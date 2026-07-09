@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkhidmatan Sewa Ambulans - Bantuan Cepat & Profesional</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="medivest.webp" alt="Logo" class="logo">
+                <img src="anything is possible.webp" alt="Logo" class="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#packages">Pakej</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#facilities">Kemudahan</a></li>
+                <li><a href="#contact">Hubungi</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary">Tempah Sekarang</button>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Perkhidmatan Sewa Ambulans 24/7</h1>
+            <p class="hero-subtitle">Bantuan cepat dan selamat untuk keperluan perubatan anda</p>
+            <div class="hero-actions">
+                <button class="btn-primary">Tempah Sekarang</button>
+                <button class="btn-outline">Lihat Pakej</button>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Perkhidmatan</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Ambulans Aktif</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">4.9</div>
+                <div class="stat-label">Rating Pelanggan</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tentang Perkhidmatan Kami</h2>
+                <p class="section-subtitle">Kami menyediakan perkhidmatan ambulans yang cepat, selamat dan profesional</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Mengapa Pilih Kami?</h3>
+                    <p>Ambulans kami akan beroperasi dengan komitmen untuk memberikan perkhidmatan ambulans terbaik. Kami mempunyai pelbagai jenis ambulans yang sesuai untuk pelbagai keperluan perubatan.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>Respons Cepat</h4>
+                            <p>Masa tindak balas kurang dari 15 minit di kawasan bandar</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-user-md"></i>
+                            <h4>Kakitangan Berpengalaman</h4>
+                            <p>Pemandu dan pembantu perubatan yang terlatih</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Selamat & Steril</h4>
+                            <p>Kenderaan sentiasa dibersih dan disteril</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Ambulance_1.webp" alt="Ambulans">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="activities" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pakej Perkhidmatan</h2>
+                <p class="section-subtitle">Pilih pakej yang sesuai dengan keperluan anda</p>
+            </div>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="basic.webp" alt="Ambulans Basic">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Ambulans Standard</h3>
+                        <p>Perkhidmatan ambulans asas untuk pemindahan pesakit stabil</p>
+                        <div class="package-price">
+                            <span class="price">RM 150</span>
+                            <span class="duration">/bulan</span>
+                        </div>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-check"></i> Peralatan asas kecemasan</li>
+                            <li><i class="fas fa-check"></i> Ruang untuk 1 pesakit</li>
+                            <li><i class="fas fa-check"></i> Oksigen asas</li>
+                            <li><i class="fas fa-check"></i> </li>
+                        </ul>
+                        
+                        <div class="add-ons">
+                            <h4>Pilihan Tambahan:</h4>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="driver-basic" data-price="50">
+                                <label for="driver-basic">Pemandu (+RM 50)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="fuel-basic" data-price="30">
+                                <label for="fuel-basic">Minyak (+RM 30)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="maintenance-basic" data-price="20">
+                                <label for="maintenance-basic">Penyelenggaraan (+RM 20)</label>
+                            </div>
+                        </div>
+                        
+                        <div class="total-price">
+                            <strong>Jumlah: RM <span id="total-basic">150</span></strong>
+                        </div>
+                        
+                        <!--<button class="btn-card" onclick="addToCart('basic')">Tempah Sekarang</button>-->
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="premium.webp" alt="Ambulans Premium">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Ambulans Komprehensif</h3>
+                        <p>Perkhidmatan ambulans dengan peralatan lebih lengkap</p>
+                        <div class="package-price">
+                            <span class="price">RM 250</span>
+                            <span class="duration">/bulan</span>
+                        </div>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-check"></i> Semua ciri Basic</li>
+                            <li><i class="fas fa-check"></i> Monitor ECG</li>
+                            <li><i class="fas fa-check"></i> Defibrillator</li>
+                            <li><i class="fas fa-check"></i> Ruang untuk 2 pesakit</li>
+                        </ul>
+                        
+                        <div class="add-ons">
+                            <h4>Pilihan Tambahan:</h4>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="driver-premium" data-price="50">
+                                <label for="driver-premium">Pemandu (+RM 50)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="fuel-premium" data-price="30">
+                                <label for="fuel-premium">Minyak (+RM 30)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="maintenance-premium" data-price="20">
+                                <label for="maintenance-premium">Penyelenggaraan (+RM 20)</label>
+                            </div>
+                        </div>
+                        
+                        <div class="total-price">
+                            <strong>Jumlah: RM <span id="total-premium">250</span></strong>
+                        </div>
+                        
+                       <!--<button class="btn-card" onclick="addToCart('premium')">Tempah Sekarang</button>-->
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="luxury.webp" alt="Ambulans Luxury">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Ambulans Premium</h3>
+                        <p>Perkhidmatan ambulans VIP dengan kemudahan terbaik</p>
+                        <div class="package-price">
+                            <span class="price">RM 400</span>
+                            <span class="duration">/bulan</span>
+                        </div>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-check"></i> Semua ciri Premium</li>
+                            <li><i class="fas fa-check"></i> Bilik rawatan mini</li>
+                            <li><i class="fas fa-check"></i> Tempat duduk untuk keluarga</li>
+                            <li><i class="fas fa-check"></i> WiFi & hiburan</li>
+                        </ul>
+                        
+                        <div class="add-ons">
+                            <h4>Pilihan Tambahan:</h4>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="driver-luxury" data-price="50">
+                                <label for="driver-luxury">Pemandu (+RM 50)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="fuel-luxury" data-price="30">
+                                <label for="fuel-luxury">Minyak (+RM 30)</label>
+                            </div>
+                            <div class="add-on-item">
+                                <input type="checkbox" id="maintenance-luxury" data-price="20">
+                                <label for="maintenance-luxury">Penyelenggaraan (+RM 20)</label>
+                            </div>
+                        </div>
+                        
+                        <div class="total-price">
+                            <strong>Jumlah: RM <span id="total-luxury">400</span></strong>
+                        </div>
+                        
+                        <!--<button class="btn-card" onclick="addToCart('luxury')">Tempah Sekarang</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galeri Ambulans</h2>
+                <p class="section-subtitle">Lihat kenderaan ambulans kami yang sedia berkhidmat</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="Ambulance_1.webp" alt="Ambulans 1">
+                    <div class="gallery-overlay">
+                        <h4>Kenderaan Medivest</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Ambulance_2.webp" alt="Ambulans 2">
+                    <div class="gallery-overlay">
+                        <h4>Kakitangan </h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Ambulance_3.webp" alt="Ambulans 3">
+                    <div class="gallery-overlay">
+                        <h4>New Vehicle</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section class="facilities" id="facilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kemudahan & Peralatan</h2>
+                <p class="section-subtitle">Kami menyediakan peralatan perubatan terkini untuk keselamatan pesakit</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Monitor ECG</h3>
+                    <p>Pemantauan jantung berterusan semasa perjalanan</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <h3>Oksigen</h3>
+                    <p>Bekalan oksigen untuk pesakit yang memerlukan</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-briefcase-medical"></i>
+                    </div>
+                    <h3>Kit Kecemasan</h3>
+                    <p>Perlengkapan lengkap untuk rawatan kecemasan</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Kakitangan Terlatih</h3>
+                    <p>Pembantu perubatan berpengalaman</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Steril & Bersih</h3>
+                    <p>Kenderaan sentiasa disteril selepas setiap penggunaan</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Hotline 24/7</h3>
+                    <p>Perkhidmatan bantuan tersedia 24 jam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Hubungi Kami</h2>
+                    <p>Perlukan bantuan segera? Hubungi kami sekarang.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Lokasi</h4>
+                                <p>Suite 13.01, Penthouse, Wisma E & C
+                                No.2, Lorong Dungun Kiri, Damansara Heights
+                                50490 Kuala Lumpur.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefon Kecemasan</h4>
+                                <p>Tel : +603-20921000,
+                                    Fax : +603-20925000</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>custsvc@medivest.com.my</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Waktu Operasi</h4>
+                                <p>24 Jam, 7 Hari Seminggu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Penuh" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Alamat Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Nombor Telefon" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Pilih Jenis Perkhidmatan</option>
+                                <option value="basic">Ambulans Basic</option>
+                                <option value="premium">Ambulans Premium</option>
+                                <option value="luxury">Ambulans Luxury</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mesej Anda" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Hantar Pertanyaan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ambulans Express</h3>
+                    <p>Perkhidmatan ambulans profesional untuk keperluan perubatan anda.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Pautan Pantas</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#packages">Pakej</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Perkhidmatan</h4>
+                    <ul>
+                        <li><a href="#">Sewa Ambulans</a></li>
+                        <li><a href="#">Perkhidmatan Kecemasan</a></li>
+                        <li><a href="#">Pemindahan Pesakit</a></li>
+                        <li><a href="#">Perkhidmatan Korporat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Langgan Berita</h4>
+                    <p>Dapatkan maklumat terkini tentang promosi dan perkhidmatan</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Alamat email anda">
+                        <button type="submit">Langgan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Medivest Sdn. Bhd. Hak Cipta Terpelihara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
